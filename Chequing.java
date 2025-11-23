@@ -16,6 +16,6 @@ public class Chequing extends BankAccount {
     @Override
 
     public void display() {
-        System.out.printf("Type: Chequing, Balance: $%.2f%n", balance);
+        System.out.printf("Chequing Account Balance: $%.2f%n", balance);
     }
 }
